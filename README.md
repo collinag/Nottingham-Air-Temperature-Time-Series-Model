@@ -2,13 +2,13 @@
 In this project, I will be exploring the nottem dataset in R and will create time series models based on this data. The nottem dataset contains the average air temperatures in Nottingham, England from 1920 to 1939, recorded monthly.
 # Time Series Model
 
-![image](https://user-images.githubusercontent.com/50085554/236972865-5536726e-6773-4f4b-968e-5eb670299ae5.png)
-
 Here is a plot of the time series data, with the red dashed line being the mean of the data, and the blue line being a trend line of the regressed observed values on time. This data is stationary and therefore does not require any manual differencing to start. This data also has constant mean and variance.
 
-![image](https://user-images.githubusercontent.com/50085554/236972955-3be74f56-7eec-4b25-b527-0c1eac6237c2.png)
+![image](https://user-images.githubusercontent.com/50085554/236972865-5536726e-6773-4f4b-968e-5eb670299ae5.png)
 
-The plot above shows the ACF and PACF of our data, the ACF plot shows a significant autocorrelation at lag 6 and 12, which indicates a seasonal pattern.
+The plot below shows the ACF and PACF of our data, the ACF plot shows a significant autocorrelation at lag 6 and 12, which indicates a seasonal pattern.
+
+![image](https://user-images.githubusercontent.com/50085554/236972955-3be74f56-7eec-4b25-b527-0c1eac6237c2.png)
 
 The below plot showcases the data for the seasonal period of a year in the horizontal axis, with the temperature on the vertical axis. As you can see, the data continues to trend up till halfway through the year and then back down for the other half, this would make sense with seasonal weather patterns. There is much more variability during the summer months which is interesting to note.
 
